@@ -1,0 +1,531 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    /* Primary Colors */
+    --very-dark-magenta: hsl(300, 43%, 22%);
+    --soft-pink: hsl(333, 80%, 67%);
+    /* Neutral Colors */
+    --dark-gray-magenta: hsl(303, 10%, 53%);
+    --light-gray-magenta: hsl(300, 24%, 96%);
+    --white: hsl(0, 0%, 100%);
+
+    /* Typography */
+    font-size: 15px;
+    font-family: 'Spartan', sans-serif;
+}
+
+
+/* Mobile 320px */
+
+
+
+@media (max-width: 320px){
+
+/* Page Elements */
+
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-text
+{
+    background-image: url(bg-pattern-top-mobile.svg);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 2rem;
+}
+
+.star-reviews div
+{
+    background-color: var(--light-gray-magenta);
+    width: 90vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: none;
+    border-radius: 0.6rem;
+    margin-bottom: 1rem;
+}
+
+.testimonials
+{
+    width: 90vw;
+    background-image: url(bg-pattern-bottom-mobile.svg);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.test-one, .test-two
+{
+    background-color: var(--very-dark-magenta);
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.test-three
+{
+    background-color: var(--very-dark-magenta);
+    margin-bottom: 6rem;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+/* Fonts */
+
+.header-text h1
+{
+    color: var(--very-dark-magenta);
+    font-size: 1.9rem;
+    font-weight: 700;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    line-height: 1;
+}
+
+.header-text h2
+{
+    color: var(--dark-gray-magenta);
+    font-size: 0.8rem;
+    font-family: 400;
+    justify-content: center;
+    text-align: center;
+    width: 90%;
+    margin-left: 5%;
+    line-height: 1.6;
+}
+
+.star-reviews h3
+{
+    color: var(--very-dark-magenta);
+    font-size: 0.8rem;
+    padding-bottom: 1rem;
+}
+
+.testimonials h1
+{
+    color: var(--white);
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-align: center;
+    position: relative;
+    right: 1.3rem;
+}
+
+.testimonials h2
+{
+    color: var(--soft-pink);
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 0.2rem;
+    position: relative;
+    right: 1.2rem;
+    padding-bottom: 2rem;
+}
+
+.testimonials p
+{
+    color: var(--light-gray-magenta);
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 1.6;
+    width: 85%;
+    text-align: left;
+    margin-left: 7.5%;
+    padding-bottom: 2rem;
+}
+
+/* Images */
+
+.star-reviews img
+{
+    width: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.testimonials img
+{
+    width: 2.3rem;
+    border-radius: 50%;
+    position: relative;
+    top: 2.4rem;
+    left: 1.5rem;
+}
+}
+
+
+/* Tablet   720px */
+
+
+@media (min-width: 45em){
+
+/* Page Elements */
+
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(bg-pattern-top-mobile.svg);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.header-text
+{
+    margin-bottom: 2rem;
+}
+
+.star-reviews div
+{
+    background-color: var(--light-gray-magenta);
+    width: 90vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: none;
+    border-radius: 0.6rem;
+    margin-bottom: 1rem;
+}
+
+.testimonials
+{
+    width: 90vw;
+}
+
+.test-one, .test-two
+{
+    background-color: var(--very-dark-magenta);
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.test-three
+{
+    background-color: var(--very-dark-magenta);
+    margin-bottom: 6rem;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+/* Fonts */
+
+.header-text h1
+{
+    color: var(--very-dark-magenta);
+    font-size: 1.9rem;
+    font-weight: 700;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    line-height: 1;
+}
+
+.header-text h2
+{
+    color: var(--dark-gray-magenta);
+    font-size: 0.8rem;
+    font-family: 400;
+    justify-content: center;
+    text-align: center;
+    width: 90%;
+    margin-left: 5%;
+    line-height: 1.6;
+}
+
+.star-reviews h3
+{
+    color: var(--very-dark-magenta);
+    font-size: 0.8rem;
+    padding-bottom: 1rem;
+}
+
+.testimonials h1
+{
+    color: var(--white);
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-align: center;
+    position: relative;
+    right: 11rem;
+}
+
+.testimonials h2
+{
+    color: var(--soft-pink);
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 0.2rem;
+    position: relative;
+    right: 11rem;
+    padding-bottom: 2rem;
+}
+
+.testimonials p
+{
+    color: var(--light-gray-magenta);
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 1.6;
+    width: 85%;
+    text-align: left;
+    margin-left: 7.5%;
+    padding-bottom: 2rem;
+}
+
+/* Images */
+
+.star-reviews img
+{
+    width: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.testimonials img
+{
+    width: 2.3rem;
+    border-radius: 50%;
+    position: relative;
+    top: 2.4rem;
+    left: 3.3rem;
+}
+    
+}
+
+
+
+/* Desktop 1320px */
+
+
+@media (min-width: 80em) {
+
+    /* Page Elements */
+
+
+    
+.container
+{
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(bg-pattern-top-desktop.svg);
+    background-position:top left;
+    background-repeat: no-repeat;
+    background-size: 33rem;
+}
+    
+.header-text
+{
+    flex-direction: column;
+    justify-content: left;
+    width: 35vw;
+    position: relative;
+    top: 8vh;
+    right: 23vw;
+}
+    
+.star-reviews
+{
+    position: absolute;
+    top: 12vh;
+    right: 28vw;
+}
+.star-reviews div
+{
+     background-color: var(--light-gray-magenta);
+     border: none;
+     border-radius: 0.6rem;
+     width: 37vw;
+     position: relative;
+}
+
+.review-one
+{
+    margin-bottom: 1.2rem;
+    position: relative;
+    left: 10vw;
+}
+
+.review-two
+{
+    margin-bottom: 1.2rem;
+    position: relative;
+    left: 14vw;
+}
+
+.review-three
+{
+    position: relative;
+    left: 18vw;
+}
+
+.testimonials
+{
+    flex-direction: row;
+    justify-content: baseline;
+    margin-left: 10vw;
+    position: absolute;
+    top: 55vh;
+}
+
+
+.testimonials div
+{
+    display: inline-block;
+}
+
+.test-one
+{
+    background-color: var(--very-dark-magenta);
+    width: 25vw;
+    border: none;
+    border-radius: 0.5rem;
+    margin-right: 2rem;
+    position: relative;
+    bottom: 3rem;
+    
+}
+
+.test-two
+{
+    background-color: var(--very-dark-magenta);
+    width: 25vw;
+    border: none;
+    border-radius: 0.5rem;
+    margin-right: 2rem;
+    position: relative;
+    bottom: 1.5rem;
+}
+
+.test-three
+{
+    background-color: var(--very-dark-magenta);
+    width: 25vw;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+
+    /* Fonts */
+
+.header-text h1
+{
+    color: var(--very-dark-magenta);
+    font-size: 3rem;
+    font-weight: 700;
+    justify-content: center;
+    text-align: left;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    line-height: 1;
+}
+
+.header-text h2
+{
+    color: var(--dark-gray-magenta);
+    font-size: 1rem;
+    font-family: 400;
+    justify-content: center;
+    text-align: left;
+    width: 90%;
+    line-height: 1.6;
+    position: relative;
+    right: 1.5vw;
+}
+
+.star-reviews h3
+{
+    color: var(--very-dark-magenta);
+    font-size: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 2rem;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 4rem;
+    position: relative;
+    bottom: 0.6rem;
+}
+
+.testimonials h1
+{
+    color: var(--white);
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    position: relative;
+    right: 2.1rem;
+}
+
+.testimonials h2
+{
+    color: var(--soft-pink);
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 0.2rem;
+    position: relative;
+    right: 2rem;
+    padding-bottom: 2rem;
+}
+
+.testimonials p
+{
+    color: var(--light-gray-magenta);
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.6;
+    width: 90%;
+    text-align: left;
+    margin-left: 5%;
+    padding-bottom: 3rem;
+}
+
+    /* Images */
+
+.star-reviews img
+{
+   width: 1.5rem;
+   display: inline-block;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   left: 1.5rem;
+   top: .6rem;
+}  
+
+.testimonials img
+{
+    width: 3rem;
+    border-radius: 50%;
+    position: relative;
+    top: 3rem;
+    left: 1.3rem;
+}
+}
